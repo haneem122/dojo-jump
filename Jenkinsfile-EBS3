@@ -32,7 +32,7 @@ pipeline {
 		stage('Push') {
 
 			steps {
-				sh 'docker push haneen0a/dojo-jump:latest'
+				sh 'docker push haneen0/dojo-jump:latest'
 			}
 		}
 
